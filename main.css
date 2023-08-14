@@ -39,7 +39,6 @@ body {
 .contenting h1 {
     text-align: center;
     font-family: "Good Vibes Pro";
-    font-weight: bold;
     font-size: 100px;
     margin-bottom: 60px;
 }
@@ -467,7 +466,7 @@ body {
     font-size: 30px;
     color: #5b6a53;
     margin-top: -70px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 
