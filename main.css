@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Good Vibes Pro';
-    src: url('/src/assets/fonts/GoodVibesPro.woff2') format('woff2'),
-        url('/src/assets/fonts/GoodVibesPro.woff') format('woff');
+    src: url('GoodVibesPro.woff2') format('woff2'),
+        url('GoodVibesPro.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
