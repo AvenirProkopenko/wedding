@@ -186,12 +186,12 @@ body {
 
 .history-title::before {
     left: calc(-38% - 20px);
-    background-image: url("/src/assets/img/right.png");
+    background-image: url("img/right.png");
 }
 
 .history-title::after {
     right: calc(-62% - 20px);
-    background-image: url("/src/assets/img/left.png");
+    background-image: url("img/left.png");
 }
 
 .history-title::before,
