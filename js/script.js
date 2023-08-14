@@ -1,21 +1,3 @@
-// Получаем ссылку на видео-элемент
-const introVideo = document.querySelector('#intro-screen video');
-
-// Задаем продолжительность видео-заставки (в миллисекундах)
-const introDuration = 7000;
-
-// После окончания видео-заставки перенаправляем на другой экран
-introVideo.addEventListener('ended', () => {
-   window.location.href = 'src/main.html'; // Замените на URL другого экрана
-});
-
-// Запускаем видео-заставку
-introVideo.play();
-
-// Устанавливаем таймер для перехода на другой экран
-setTimeout(() => {
-   window.location.href = 'src/main.html'; // Замените на URL другого экрана
-}, introDuration);
 
 
 const menuLinks = document.querySelectorAll('.menu-link');
